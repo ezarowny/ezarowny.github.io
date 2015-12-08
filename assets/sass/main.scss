@@ -102,6 +102,10 @@
 		margin-bottom: 2em;
 	}
 
+	a {
+		text-decoration: none;
+	}
+
 /* Table */
 
 	table {
@@ -375,6 +379,26 @@
 				width: 100%;
 				height: 100%;
 				z-index: 1;
+			}
+		}
+	}
+
+/* Accommodations */
+
+	#accommodations {
+		.booking-number {
+			color: #e7746f;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.booking-link {
+			color: #3a84df;
+
+			&:hover {
+				text-decoration: underline;
 			}
 		}
 	}
